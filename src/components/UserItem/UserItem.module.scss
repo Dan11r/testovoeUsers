@@ -1,0 +1,50 @@
+.userItem {
+  background: #f3f3f3;
+  border-radius: 8px;
+
+  margin-left: 31px;
+  padding: 1rem;
+  margin-bottom: 14px;
+  width: 420px;
+  height: 73px;
+
+  display: flex;
+  justify-content: space-between;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .link {
+    align-self: flex-end;
+    a {
+      text-decoration: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #4b51ef;
+    }
+  }
+
+  span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #a3a3a3;
+    margin-right: 7px;
+  }
+  div {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #000000;
+  }
+}

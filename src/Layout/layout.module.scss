@@ -1,0 +1,15 @@
+.wrapper {
+  .sidebar {
+    position: fixed;
+    width: 152px;
+    height: 1028px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    background: #bdbdbd;
+  }
+  .content {
+    margin-left: 152px;
+  }
+}

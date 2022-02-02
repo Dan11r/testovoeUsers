@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 9px;
+    margin-bottom: 5px;
+  }
+  input {
+    background: #ffffff;
+    outline: none;
+    width: 211px;
+    height: 30px;
+    border: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    &[disabled] {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
